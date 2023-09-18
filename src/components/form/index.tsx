@@ -1,6 +1,6 @@
 "use client"
 import { TYPE_EMISSION } from "@/contants";
-import Combobox from "../combobox";
+import ComboBox from "../combobox";
 
 const Form = () => {
   return (
@@ -11,7 +11,7 @@ const Form = () => {
             Tipo Emissão:
           </label>
           <div>
-            <Combobox itens={TYPE_EMISSION} onChange={(val) => {
+            <ComboBox itens={TYPE_EMISSION} onChange={(val) => {
               console.log('VAL', val);
             }} />
             {/* <input 

@@ -70,4 +70,4 @@ const ComboBox = ({ itens, onChange, name }: IComboBox) => {
   )
 };
 
-export default Combobox;
+export default ComboBox;

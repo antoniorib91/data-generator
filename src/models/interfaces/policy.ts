@@ -4,7 +4,7 @@ import { IItens } from "./itens";
 import { IPaymentType } from "./payment-type";
 import { IPersons } from "./persons";
 
-type TCotador = 'V';
+type TCotador = 'V' | string;
 type TUser = 'root';
 type TPrintPhisicalyBankslip = 'NaoImprime';
 type TTypeSecure = 'SemInformacao';
