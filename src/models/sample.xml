@@ -1,0 +1,146 @@
+<Seguro xmlns='Servicos.Emissao.Entidades'xmlns:i='http://www.w3.org/2001/XMLSchema-instance'>
+    <NumeroDoProcessoInterno>9330000001</NumeroDoProcessoInterno> 
+    <NossoNumero>00000000001</NossoNumero>
+    <TipoEmissao>ApoliceAberta</TipoEmissao> // Digitavel seleção informado pelo usuário Tipo: String
+    <TipoCotador>V</TipoCotador>
+    <ValorPremioTotal>0.00</ValorPremioTotal> // (Soma da 'ValorPremio' dentro da cobertura) Tipo: Numero
+    <ValorIof>0</ValorIof> // Digitavel 
+    <ValorImportanciaSegurada>180000.00</ValorImportanciaSegurada> // Digitavel 
+    <ValorPremioLiquido>0.00</ValorPremioLiquido>  
+    <CodigoRamo>0993</CodigoRamo> // Digitavel 
+    <NumeroApolice>0</NumeroApolice>
+    <EhRenovacao>false</EhRenovacao>
+    <Usuario>root</Usuario>
+    <DataHoraDigitacao>2023-08-31T00:00:00-03:00</DataHoraDigitacao>
+    <DataInicioVigencia>2023-08-01T00:00:00-03:00</DataInicioVigencia>
+    <DataFimVigencia>2024-08-01T00:00:00-03:00</DataFimVigencia>
+    <DataInicioViagem>0001-01-01T00:00:00</DataInicioViagem>
+    <Filial>11</Filial>
+    <CodigoProduto>20</CodigoProduto> // Digitavel seleeção informado pelo usuário Tipo: Numero
+    <ExecutivoDeConta>1726</ExecutivoDeConta>
+    <Itens>
+        <Item>
+            <Codigo>1</Codigo> 
+            <ValorImportanciaSegurada>180000.00</ValorImportanciaSegurada> // (Soma da 'ValorImportanciaSegurada' de cada cobertura) Tipo: Numero
+            <Coberturas>
+                <Cobertura>
+                    <Codigo>2</Codigo> // Digitavel Tipo: Numero
+                    <EhAssistencia>false</EhAssistencia> // Digitavel
+                    <ValorImportanciaSegurada>100000</ValorImportanciaSegurada> // Digitavel Tipo: Numero
+                    <ValorPremio>0</ValorPremio> // Digitavel Tipo: Numero
+                </Cobertura> 
+            </Coberturas>
+            <Clausulas i:nil='true' />
+            <Locais>
+                <LocalRisco>
+                    <Bairro>BOA VISTA</Bairro>
+                    <CEP>45026415</CEP>
+                    <Cidade>VITORIA DA CONQUISTA</Cidade>
+                    <Complemento i:nil='true' />
+                    <Logradouro>R PRFA FRANCISCA 26</Logradouro>
+                    <TipoLogradouro>Rua</TipoLogradouro>
+                    <UF>BA</UF>
+                </LocalRisco>
+            </Locais>
+        </Item>
+    </Itens>
+    <TextoEndosso i:nil='true' />
+    <FormaPagamento>
+        <AdicionaisFracionamento i:nil="true" />
+        <NumeroBoleto>7457649</NumeroBoleto>
+        <Tipo>BoletoAguardaPagamento</Tipo>
+    </FormaPagamento> 
+    <Corretagens> // Criar array com opção de 1 ou 2
+        <Corretagem>
+            <CodigoCorretor>8102</CodigoCorretor>
+            <CorretorPrincipal>true</CorretorPrincipal>
+            <PercentualCorretagem>15</PercentualCorretagem> // Digitavel seleeção informado pelo usuário Tipo: Numero
+        </Corretagem>
+        <Corretagem>
+            <CodigoCorretor>8104</CodigoCorretor>
+            <CorretorPrincipal>false</CorretorPrincipal>
+            <PercentualCorretagem>20</PercentualCorretagem> // Digitavel seleeção informado pelo usuário Tipo: Numero
+        </Corretagem>
+    </Corretagens>
+    <Cosseguradoras />
+    <ParceirosNegocio> // Criar array com opção de 1 ou 2
+        <ParceiroNegocio>
+            <Agenciamento i:nil="true" />
+            <CodigoCanal>930124</CodigoCanal>
+            <CodigoCorretor>8102</CodigoCorretor>
+            <Percentual>10</Percentual> // Digitavel seleeção informado pelo usuário Tipo: Numero
+            <QuantidadeParcelas>1</QuantidadeParcelas>
+            <TipoCanal>Agenciamento</TipoCanal>
+        </ParceiroNegocio>
+        <ParceiroNegocio>
+            <Agenciamento i:nil="true" />
+            <CodigoCanal>930124</CodigoCanal>
+            <CodigoCorretor>8102</CodigoCorretor>
+            <Percentual>10</Percentual> // Digitavel seleeção informado pelo usuário Tipo: Numero
+            <QuantidadeParcelas>1</QuantidadeParcelas> 
+            <TipoCanal>Prolabore</TipoCanal>
+        </ParceiroNegocio>
+    </ParceirosNegocio>
+    <Pessoas>
+        <Pessoa>
+            <Nome>ALIMENTOS TIA SONIA LTDA</Nome>
+            <NomeAbreviado>TIA SONIA</NomeAbreviado>
+            <NomeContato i:nil='true' />
+            <TipoProponente>Subestipulante</TipoProponente>
+            <TipoPessoa>Juridica</TipoPessoa>
+            <Cpf i:nil='true' />
+            <Cnpj>08385685000143</Cnpj>
+            <Renda>0</Renda>
+            <Profissao i:nil='true' />
+            <EmailContato>testeintegracaoinsuremo@gmail.com</EmailContato>
+            <TipoDocumento>NaoInformado</TipoDocumento>
+            <NumeroDocumento i:nil='true' />
+            <OrgaoExpedidor i:nil='true' />
+            <DataExpedicao i:nil='true' />
+            <DataNascimento>0001-01-01T00:00:00</DataNascimento>
+            <RamoAtividadeEmpresa>OutrasAtividades</RamoAtividadeEmpresa>
+            <Sexo>NaoInformado</Sexo>
+            <Telefones>
+                <Telefone>
+                    <DDD>77</DDD>
+                    <Numero>34253545</Numero>
+                    <Observacao i:nil='true' />
+                    <Principal>true</Principal>
+                    <Ramal>0</Ramal>
+                    <Tipo>Comercial</Tipo>
+                </Telefone>
+            </Telefones>
+            <Enderecos>DateTime
+                <Endereco>
+                    <Bairro>BOA VISTA</Bairro>
+                    <CEP>45026415</CEP>
+                    <Cidade>VITORIA DA CONQUISTA</Cidade>
+                    <Complemento i:nil='true' />
+                    <Logradouro>R PRFA FRANCISCA 26</Logradouro>
+                    <Numero>null</Numero>
+                    <TipoEndereco>Fiscal</TipoEndereco>
+                    <TipoLogradouro>Rua</TipoLogradouro>
+                    <UF>BA</UF>
+                </Endereco>
+            </Enderecos>
+            <CodigoCNAE>1069400</CodigoCNAE>
+            <EhResponsavel>true</EhResponsavel>
+            <GrupoFinanceiro i:nil='true' />
+            <CodigoRamoAtividade>0</CodigoRamoAtividade>
+        </Pessoa>
+    </Pessoas>
+    <CopiarDadosSeguradoBPEndosso>false</CopiarDadosSeguradoBPEndosso>
+    <ImpressaoBoletoFisico>NaoImprime</ImpressaoBoletoFisico>
+    <EhTransporte>false</EhTransporte>
+    <ValorCambioMoedaEstrangeira>0</ValorCambioMoedaEstrangeira>
+    <ProrrogacaoDeVigencia>false</ProrrogacaoDeVigencia>
+    <AjusteComercial>0</AjusteComercial>
+    <LmiUnico>false</LmiUnico>
+    <Subvencoes i:nil='true' />
+    <TipoResseguro>SemInformacao</TipoResseguro>
+    <CodigoCobrancaUnificada>0</CodigoCobrancaUnificada>
+    <EmissaoHistorico i:nil='true' />
+    <EmissaoPedIndice i:nil='true' />
+    <DataRecebimentoCia>0001-01-01T00:00:00</DataRecebimentoCia>
+    <CodigoCIA>7000</CodigoCIA>
+</Seguro>
